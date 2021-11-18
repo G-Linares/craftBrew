@@ -17,7 +17,7 @@
 
 .swal-wide{
     width:40% !important;
-    height: 40% !important;
+    height: 80% !important;
     font-size: 2rem !important;
     font-family: 'Montserrat',sans-serif;
 }
@@ -25,14 +25,14 @@
 
 .swal-granted {
     width:40% !important;
-    height: 40% !important;
+    height: 50% !important;
     font-size: 2rem !important;
     font-family: 'Montserrat',sans-serif;
 }
 
 .swal-denied {
     width:40% !important;
-    height: 40% !important;
+    height: 70% !important;
     font-size: 1.2rem !important;
     font-family: 'Montserrat',sans-serif;
 }
@@ -358,6 +358,10 @@ section{
     padding: 2rem;
     border-radius: 15px;
     background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .products .box-container .box:hover{
@@ -429,8 +433,14 @@ section{
 .review .box-container .box{
     border:var(--border);
     text-align: center;
-    padding:3rem 2rem;
+    padding:4rem 3rem;
     background:rgba(71, 71, 71, 0.473);
+    transition: all .2s ease-in-out;
+    border-radius: 15px;
+}
+
+.review .box-container .box:hover {
+    transform: scale(1.05);
 }
 
 .review .box-container .box p{
@@ -463,6 +473,11 @@ section{
     color: var(--main-color);
 }
 
+.email-sent-successful {
+    width: 40%;
+    height: 70%;
+    font-size: 2rem;
+}
 .contact .row{
     display: flex;
     background:var(--black);
@@ -475,6 +490,7 @@ section{
     flex:1 1 45rem;
     width: 100%;
     object-fit: cover;
+    border-radius: 0 15px 15px 0;
 }
 
 .contact .row form{

@@ -1,6 +1,4 @@
 (async () => {
-
-    /* inputOptions can be an object or Promise */
     const inputOptions = new Promise((resolve) => {
       setTimeout(() => {
         resolve({
@@ -38,6 +36,13 @@
         icon: 'error',
         confirmButtonText: 'Accept'});
     }
+})();
 
-    
-    })()
+
+document.getElementById('send-button-contact').addEventListener("click",function(){
+  Swal.fire({
+    title: 'Email sent',
+    icon: 'success',
+    customClass: 'email-sent-successful'
+  });
+});
