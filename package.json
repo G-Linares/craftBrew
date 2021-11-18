@@ -1,0 +1,26 @@
+{
+  "name": "craftbrew",
+  "version": "1.0.0",
+  "description": "Web page to sell beer",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G-Linares/craftBrew.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/G-Linares/craftBrew/issues"
+  },
+  "homepage": "https://github.com/G-Linares/craftBrew#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "sweetalert2": "^11.1.10"
+  }
+}

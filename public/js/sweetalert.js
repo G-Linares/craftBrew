@@ -1,0 +1,43 @@
+(async () => {
+
+    /* inputOptions can be an object or Promise */
+    const inputOptions = new Promise((resolve) => {
+      setTimeout(() => {
+        resolve({
+          'Yes': 'No, I have less than 16.',
+          'No': 'Yes, I have 16 or more.',
+
+        })
+      }, 1000)
+    })
+    
+    const { value: edad } = await Swal.fire({
+      title: 'Are you 16 years old or more?',
+      input: 'radio',
+      customClass: 'swal-wide',
+      confirmButtonColor: "#CE4809",
+      inputOptions: inputOptions,
+      inputValidator: (value) => {
+        if (!value) {
+          return 'You need to choose something!'
+        }
+      }
+    })
+    
+    if (edad === 'No') {
+      Swal.fire({ 
+        customClass: 'swal-granted', 
+        confirmButtonColor: "#CE4809", 
+        html: `Welcome to Craft-Brew` })
+    } else {
+        Swal.fire({
+        customClass: 'swal-denied',
+        title: 'Age Restriction!',
+        confirmButtonColor: "#CE4809",
+        text: 'Craft-Brew acces is prohibited now.',
+        icon: 'error',
+        confirmButtonText: 'Accept'});
+    }
+
+    
+    })()
