@@ -93,16 +93,11 @@
 <!-- hocomienza home  -->
 
 <section class="home" id="home">
-    
     <div class="content">
-        <h3>Craft beer has never been so</h3><span id="auto-input"></span>
-        <p>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, expedita?</p>
+        <h3>Craft beer has never been so<br/><span class="typed"></span></h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, maxime? Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, expedita?</p>
         <a href="#" class="btn">get yours now</a>
-        
     </div>
-  
-      
-
 </section>
 
 <!-- acaba home -->
@@ -124,7 +119,23 @@
         </div>
 
         <div class="image">
-            <img src="images/about-img.jpeg" alt="">
+           
+                <div class="carousel">
+                    <div class="carousel__item carousel__item--visible">
+                      <img src="images/about-img1.jpg" />
+                    </div>
+                    <div class="carousel__item">
+                      <img src="images/about-img2.jpg" />
+                    </div>
+                    <div class="carousel__item">
+                      <img src="images/about-img3.png" />
+                    </div>
+                    <div class="carousel__actions">
+                      <button id="carousel__button--prev" aria-label="Previous slide"><</button>
+                      <button id="carousel__button--next" aria-label="Next slide">></button>
+                    </div>
+                  </div>
+        
         </div>
 
         
@@ -331,7 +342,7 @@
             </div> 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
             <img src="images/pic-1.png" class="user" alt="">
-            <h3>Juan Perez</h3>
+            <h3>Juni Ito</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -381,7 +392,7 @@
             </div> 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
             <img src="images/pic-1.png" class="user" alt="">
-            <h3>Mariel Garcia</h3>
+            <h3>Chonsu Garcia</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
@@ -397,7 +408,7 @@
             </div> 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
             <img src="images/pic-1.png" class="user" alt="">
-            <h3>Armando Linares</h3>
+            <h3>Bodoque Linares</h3>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -434,7 +445,7 @@
             </div>
             <input type="" value="contact now" class="btn" id="send-button-contact">
         </form>
-        <iframe class="map" src="https://maps.google.com/maps?q=margarita%20maza%20de%20juarz%20168&t=&z=15&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy"></iframe>
+        <iframe class="map" src="https://maps.google.com/maps?q=angel%20de%20la%20revolucion%20mexico&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
     </div>
 </section>
 
@@ -463,16 +474,11 @@
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="js/sweetalert.js"></script>
 <script src="sweetalert2.all.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script>
-    var typed = new Typed("#auto-input", {
-        strings: ["Cheap", "Delicious", "Expendable"],
-        typeSpeed: 100,
-        backSpeed: 50,
-        loop: true
-    });
 
-</script>
+<!-- agrego el typed.js-->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="js/typed.js"></script>
+<!-- fin de typed typed.js-->
 
 
 </body>
