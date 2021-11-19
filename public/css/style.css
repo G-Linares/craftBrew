@@ -61,6 +61,7 @@ body{
     background: var(--bg);
 }
 
+
 section{
     padding:2rem 7%;
 }
@@ -94,16 +95,22 @@ section{
     letter-spacing: .2rem;
 }
 
+.wave {
+    position: relative;
+    top: 80px;
+}
+
 .header{
-    background: var(--bg);
+    background: var(--main-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding:1.5rem 7%;
     border-bottom: #CE4809;
     position: fixed;
-    top:0; left: 0; right: 0;
-    z-index: 1000;
+    top:0; left: 0; right: 0; left: 0;
+    z-index: 1;
+    
 }
 
 .header .logo img{
@@ -114,7 +121,8 @@ section{
 .header .navbar a{
     margin:0 1rem;
     font-size: 1.6rem;
-    color:#fff;
+    color:var(--black);
+    font-weight: bold;
 }
 
 .header .navbar a:hover{
@@ -124,14 +132,14 @@ section{
 }
 
 .header .icons div{
-    color:#fff;
+    color: var(--black);
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
 }
 
 .header .icons div:hover{
-    color:var(--main-color);
+    color:#CE4809;
 }
 
 #menu-btn{
@@ -148,10 +156,13 @@ section{
     align-items: center;
     transform: scaleY(0);
     transform-origin: top;
+    
 }
 
 .header .search-form.active{
     transform: scaleY(1);
+    border-radius: 15px;
+    border:solid 5px var(--bg)
 }
 
 .header .search-form input{
@@ -161,6 +172,9 @@ section{
     color:var(--black);
     padding:1rem;
     text-transform: none;
+    border-radius: 15px;
+    
+
 }
 
 .header .search-form label{
@@ -171,7 +185,7 @@ section{
 }
 
 .header .search-form label:hover{
-    color:var(--main-color);
+    color:#CE4809;
 }
 
 .header .cart-items-container{
@@ -664,12 +678,15 @@ section{
     .home .content span {
         font-size: 4.5rem;
     }
-
 }
 
 @media (max-width:450px){
     html{
         font-size: 50%;
+    }
+    .wave {
+       position:relative ; 
+       top: 73px;
     }
 
 }
