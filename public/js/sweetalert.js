@@ -33,8 +33,7 @@
         title: 'Age Restriction!',
         confirmButtonColor: "#CE4809",
         text: 'Craft-Brew acces is prohibited now.',
-        icon: 'error',
-        confirmButtonText: 'Accept'});
+        icon: 'error'});
     }
 })();
 

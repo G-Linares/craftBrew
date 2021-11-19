@@ -10,12 +10,10 @@
     <title>Craft-Brew</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Craft-Brew</title>
 
 </head>
 
 <body>
-    
 <!-- hecomienza header -->
 
 <header class="header">
@@ -83,21 +81,32 @@
 
 <!-- fin de header-->
 
+<!--<div class="content">
+    <h3>Craft beer as you've never seen it</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio tempora reiciendis.</p>
+    <a href="#" class="btn">get yours now</a>
+</div>
+
+
 <!-- hocomienza home  -->
 
 <section class="home" id="home">
-
+    
     <div class="content">
-        <h3>Craft beer as you've never seen it</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio tempora reiciendis.</p>
+        <h3>Craft beer has never been so</h3><span id="auto-input"></span>
+        <p>Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, expedita?</p>
         <a href="#" class="btn">get yours now</a>
+        
     </div>
+  
+      
 
 </section>
 
 <!-- acaba home -->
 
 <!-- comienza about section  -->
+
 
 <section class="about" id="about">
 
@@ -452,6 +461,16 @@
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="js/sweetalert.js"></script>
 <script src="sweetalert2.all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed("#auto-input", {
+        strings: ["Cheap", "Delicious", "Expendable"],
+        typeSpeed: 100,
+        backSpeed: 50,
+        loop: true
+    });
+</script>
+
 
 </body>
 </html>

@@ -33,7 +33,7 @@
 .swal-denied {
     width:40% !important;
     height: 70% !important;
-    font-size: 1.2rem !important;
+    font-size: 2rem !important;
     font-family: 'Montserrat',sans-serif;
 }
 
@@ -229,6 +229,8 @@ section{
     text-align: center;
 }
 
+
+
 .home{
     min-height: 100vh;
     display: flex;
@@ -238,8 +240,19 @@ section{
     background-position: center;
 }
 
+.home .test {
+    border: red solid 1px;
+}
+
 .home .content{
     max-width: 60rem;
+}
+
+.home .content span {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight:bold ;
 }
 
 .home .content h3{
