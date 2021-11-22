@@ -2,8 +2,8 @@
     const inputOptions = new Promise((resolve) => {
       setTimeout(() => {
         resolve({
-          'Yes': 'No, I have less than 16.',
-          'No': 'Yes, I have 16 or more.',
+          'Yes': 'No, Im not',
+          'No': 'Yes, Iam',
 
         })
       }, 1000)

@@ -11,3 +11,6 @@ app.use(express.static('public'));
 app.get('/',function(req,res){
     res.sendFile(path.resolve(__dirname,'views/index.html'));
 });
+app.get('/products',function(req,res){
+    res.sendFile(path.resolve(__dirname,'views/products.html'));
+});

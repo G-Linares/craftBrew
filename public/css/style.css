@@ -20,6 +20,7 @@
     height: 80% !important;
     font-size: 2rem !important;
     font-family: 'Montserrat',sans-serif;
+    text-align: start;
 }
 
 
@@ -218,7 +219,7 @@ section{
 }
 
 .header .cart-items-container .cart-item .fa-times:hover{
-    color:var(--main-color);
+    color:#CE4809;
 }
 
 .header .cart-items-container .cart-item img{
@@ -493,7 +494,7 @@ section{
 
 .products .box-container .box .content .stars i{
     font-size: 1.7rem;
-    color: var(--main-color);
+    color: #CE4809;
 }
 
 .products .box-container .box .content .price{
@@ -548,12 +549,12 @@ section{
 
 .review .box-container .box .stars i{
     font-size: 1.5rem;
-    color:var(--main-color);
+    color:#CE4809;
 }
 
 .review .box-container .box .quote-icon i {
     font-size: 5.5rem;
-    color: var(--main-color);
+    color: #fff;
 }
 
 .email-sent-successful {
@@ -733,6 +734,15 @@ section{
 
     .home .content span {
         font-size: 4.5rem;
+    }
+    .swal-wide {
+        width: 90% !important;
+    }
+    .swal-granted {
+        width: 90% !important;
+    }
+    .swal-denied{
+        width: 90% !important;
     }
 }
 
