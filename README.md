@@ -31,7 +31,7 @@ The website use will be primarily focused on the marketing of international hand
 
 ### Reference Web-Pages
 
-[The Beer Cow](https://thebeercow.com)
+[The Beer Cow](https://thebeercow.com)<br/>
 Platform dedicated to the distribution of Hand CRafted Beer on Mexico. THey mainly focus on national beer but they are open to sell any kind of brew.
 
 ### Design
