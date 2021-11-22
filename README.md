@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a>
-    <img src="public/images/logo.jpg" alt="Logo" width="346" height="346">
+    <img src="public/images/logo.jpg" alt="Logo" width="459" height="147">
   </a>
 </div>
 
@@ -17,12 +17,13 @@
 ## Buy and Learn about crafted beer.
 
 The website use will be primarily focused on the marketing of international hand crafted beer, as well as a brew made by the brand itself. It will be a full-fledged e-commerce website using the latest technology. This means that the platform will have the following:
-    - Shopping cart.
-    - Log-in / Sign-in function.
-    - Full menu view.
-    - Payment authentication.
-    - Ordere Tracking.
-    - Blog section.
+
+- Shopping cart.
+- Log-in / Sign-in function.
+- Full menu view.
+- Payment authentication.
+- Ordere Tracking.
+- Blog section.
 
 ### Contributors
 
