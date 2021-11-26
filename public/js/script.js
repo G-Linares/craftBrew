@@ -81,7 +81,7 @@ function closeLoginForm(){
 
 const slidesContainers = document.querySelectorAll('.slide-container');
 const wrapper = document.querySelector('.wrapper');
-let panAmount = 5;
+let panAmount = 3;
 
 function init() {
   slidesContainers.style.width = (100 + slidesContainers.length * panAmount) + "%"; // Set wrapper width based on number of slides + panAmount.

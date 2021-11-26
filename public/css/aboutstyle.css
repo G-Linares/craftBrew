@@ -28,7 +28,7 @@
     -o-background-size: cover;
     background-size: cover;
     animation-name: swipe;
-    animation-duration: 15s; /* 5 * number of slides. */
+    animation-duration: 9s; /* 5 * number of slides. */
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(1, 0, 0, 1);
     z-index: 0;
@@ -59,19 +59,19 @@ swipe {  0% {
 
 .slide-1 {
     background: url(../images/about-img1.jpg) no-repeat center center fixed;
-    animation-delay: 5s;
+    animation-delay: 3s;
 
   }
   
 .slide-2 {
     background: url(../images/about-img2.jpg) no-repeat center center fixed;
-    animation-delay: 10s;
+    animation-delay: 6s;
     
 }
   
 .slide-3 {
     background: url(../images/about-img3.png) no-repeat center center fixed;
-    animation-delay: 15s;
+    animation-delay: 9s;
 }
 
 main .carousel-text{
