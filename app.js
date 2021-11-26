@@ -1,16 +1,15 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const port = process.env.PORT || 3000;
+let mainRoute = require('./src/routes/main.js');
+let productRoute = require('./src/routes/product.js')
 
-app.listen(process.env.PORT || 3000, function(){
-    console.log(`Servidor en puerto 3000`);
+app.listen(port, function(){
+    console.log(`Servidor en puerto ${port}`);
 })
 
 app.use(express.static('public'));
 
-app.get('/',function(req,res){
-    res.sendFile(path.resolve(__dirname,'views/index.html'));
-});
-app.get('/products',function(req,res){
-    res.sendFile(path.resolve(__dirname,'views/products.html'));
-});
+app.use('/', mainRoute);
+app.use('/product', productRoute);
