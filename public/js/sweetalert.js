@@ -1,4 +1,4 @@
-/*(async () => {
+(async () => {
     const inputOptions = new Promise((resolve) => {
       setTimeout(() => {
         resolve({
@@ -45,4 +45,3 @@ document.getElementById('send-button-contact').addEventListener("click",function
     customClass: 'email-sent-successful'
   });
 });
-*/
