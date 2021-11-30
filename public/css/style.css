@@ -96,10 +96,6 @@ section{
     letter-spacing: .2rem;
 }
 
-.wave {
-    position: relative;
-    top: 80px;
-}
 
 .header{
     background: var(--main-color);
@@ -906,10 +902,6 @@ section{
 @media (max-width:450px){
     html{
         font-size: 50%;
-    }
-    .wave {
-       position:relative ; 
-       top: 73px;
     }
 
 }

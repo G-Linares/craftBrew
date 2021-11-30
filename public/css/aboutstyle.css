@@ -35,7 +35,7 @@
     -o-background-size: cover;
     background-size: cover;
     animation-name: swipe;
-    animation-duration: 9s; /* 5 * number of slides. */
+    animation-duration: 9s; 
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(1, 0, 0, 1);
     z-index: 0;
@@ -55,11 +55,11 @@ swipe {  0% {
  30% {
  z-index: 0;
 }
- 65.9% { /* (Numer of slides * 10) + 36 - 0.1. */
+ 65.9% { 
  z-index: 0;
  visibility: hidden;
 }
- 66% { /* (Numer of slides * 10) + 36. */
+ 66% { 
  visibility: visible;
 }
 }
@@ -224,12 +224,6 @@ main .carousel-text{
         border-radius: none;
     }
 }
-
-
-
-
-
-
 
 @media screen and (min-width:451px){
     main .carousel-text h1{
