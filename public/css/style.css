@@ -322,7 +322,7 @@ section{
     text-align: center;
     border-radius:50%;
     cursor:pointer;
-    z-index: 4;
+    z-index: 10;
   }
   .popup .form .avatar {
     margin:90px 0px 20px;

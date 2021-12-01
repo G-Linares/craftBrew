@@ -1,7 +1,8 @@
-const cervezas = [
+const cervezasOferta = [
     {
         id:0,
         titulo: '5 De Mayo, Saga',
+        descripcionCorta:'Cerveza 5 de Mayo Saga. Especiada, con notas cítricas y frescos aromas definidos',
         descripcionDetallada: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         precio: '56.00',
         img: 'cart-item1.jpg'
@@ -28,4 +29,4 @@ const cervezas = [
     },
 ];
 
-module.exports = cervezas;
+module.exports = cervezasOferta;
